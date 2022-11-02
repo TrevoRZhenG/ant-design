@@ -19,12 +19,12 @@ import React from 'react';
 
 const App: React.FC = () => (
   <>
-    <Alert message="Success Tips" type="success" showIcon />
+    <Alert message="图片已生成" type="success" showIcon />
     <Alert message="Informational Notes" type="info" showIcon />
     <Alert message="Warning" type="warning" showIcon closable />
     <Alert message="Error" type="error" showIcon />
     <Alert
-      message="Success Tips"
+      message="图片已生成"
       description="Detailed description and advice about successful copywriting."
       type="success"
       showIcon
